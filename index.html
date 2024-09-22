@@ -3,55 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorting Algorithm Visualization</title>
-    <link rel="stylesheet" href="style/styles.css">
+    <title>Welcome to Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Sorting Algorithm Visualization</h1>
+        <h1>Welcome to Algoverse</h1>
     </header>
 
-    <div id="control-panel">
-        <div class="control-group">
-            <label for="arraySize">Array Size: </label>
-            <input type="number" id="arraySize" min="5" max="100" value="30">
-        </div>
-        <div class="control-group">
-            <label for="speedRange">Speed: <span id="speedLabel">1x</span></label>
-            <input type="range" id="speedRange" min="0.25" max="3" step="0.25" value="1">
-        </div>
-        <div class="control-group">
-            <label for="algorithm">Select Algorithm: </label>
-            <select id="algorithm">
-                <option value="bubbleSort">Bubble Sort</option>
-                <option value="quickSort">Quick Sort</option>
-                <option value="mergeSort">Merge Sort</option>
-                <option value="insertionSort">Insertion Sort</option>
-                <option value="selectionSort">Selection Sort</option>
-            </select>
-        </div>
-        <button id="generateButton">Generate New Array</button>
-        <button id="sortButton">Start Sorting</button>
-    </div>
+    <main>
+        <section>
+            <h2>Sorting Algorithms</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="card" id="bubbleSort">
+                        <h3>Bubble Sort</h3>
+                        <p>Simple comparison-based algorithm, known for its simplicity.</p>
+                        <button>Visualize</button>
+                    </div>
+                    <div class="card" id="quickSort">
+                        <h3>Quick Sort</h3>
+                        <p>Efficient, divide-and-conquer algorithm, excellent for large datasets.</p>
+                        <button>Visualize</button>
+                    </div>
+                    <div class="card" id="mergeSort">
+                        <h3>Merge Sort</h3>
+                        <p>Stable sorting algorithm, perfect for ensuring reliable results.</p>
+                        <button>Visualize</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div id="main-container">
-        <div id="array-container"></div>
-        <div id="legend">
-            <h2>Color Code</h2>
-            <p><span class="legend-box" style="background-color: #3498db;"></span> Default State</p>
-            <p><span class="legend-box" style="background-color: #f39c12;"></span> Comparing State</p>
-            <p><span class="legend-box" style="background-color: #e74c3c;"></span> Swapping State</p>
-            <p><span class="legend-box" style="background-color: #2ecc71;"></span> Sorted State</p>
-        </div>
-    </div>
+        <section>
+            <h2>Search Algorithms</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="card" id="binarySearch">
+                        <h3>Binary Search</h3>
+                        <p>Efficient search algorithm, works on sorted arrays.</p>
+                        <button>Visualize</button>
+                    </div>
+                    <div class="card" id="linearSearch">
+                        <h3>Linear Search</h3>
+                        <p>Simple search algorithm, works on unsorted arrays.</p>
+                        <button>Visualize</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div id="array-content">
-        <div class="content-header">
-            <button id="toggleArrayOutput">Hide Array Content at Each Step</button>
-        </div>
-        <pre id="array-output"></pre>
-    </div>
+        <section>
+            <h2>Graph Algorithms</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="card" id="dijkstra">
+                        <h3>Dijkstra's Algorithm</h3>
+                        <p>Shortest path algorithm, works with weighted graphs.</p>
+                        <button>Visualize</button>
+                    </div>
+                    <div class="card" id="bfs">
+                        <h3>Breadth-First Search (BFS)</h3>
+                        <p>Graph traversal algorithm, explores neighbors first.</p>
+                        <button>Visualize</button>
+                    </div>
+                    <div class="card" id="dfs">
+                        <h3>Depth-First Search (DFS)</h3>
+                        <p>Graph traversal algorithm, explores as far as possible along a branch.</p>
+                        <button>Visualize</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <script src="scripts/main.js"></script>
+        <section>
+            <h2>Dynamic Programming Algorithms</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="card" id="knapsack">
+                        <h3>Knapsack Problem</h3>
+                        <p>Optimization problem, solved using dynamic programming.</p>
+                        <button>Visualize</button>
+                    </div>
+                    <div class="card" id="fibonacci">
+                        <h3>Fibonacci Sequence</h3>
+                        <p>Classic problem, solved efficiently with dynamic programming.</p>
+                        <button>Visualize</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const algorithms = {
+            'bubbleSort': 'Bubble Sort',
+            'quickSort': 'Quick Sort',
+            'mergeSort': 'Merge Sort',
+            'binarySearch': 'Binary Search',
+            'linearSearch': 'Linear Search',
+            'dijkstra': 'Dijkstra\'s Algorithm',
+            'bfs': 'Breadth-First Search',
+            'dfs': 'Depth-First Search',
+            'knapsack': 'Knapsack Problem',
+            'fibonacci': 'Fibonacci Sequence'
+        };
+
+        Object.keys(algorithms).forEach(algorithm => {
+            document.getElementById(algorithm).querySelector('button').addEventListener('click', function() {
+                // window.location.href = `algorithm.html?algorithm=${algorithm}`;
+                window.location.href = `sorting.html?algorithm=${algorithm}`;
+            });
+        });
+    </script>
 </body>
 </html>
