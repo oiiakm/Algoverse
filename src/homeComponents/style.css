@@ -1,0 +1,36 @@
+.type {
+    width: 100%;
+    align-content: center;
+    background: linear-gradient(135deg, #1F2937, #3B82F6);
+    text-align: center;
+    font-family: "Roboto Slab ExtraLight";
+    color: #E5E7EB;
+}
+
+.Cards {
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    color: #333;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.page-footer {
+    background: linear-gradient(135deg, #111827, #1F2937);
+    color: #D1D5DB;
+    padding: 20px;
+    text-align: center;
+}
+
+.greet {
+    text-align: center;
+    background: linear-gradient(135deg, #6366F1, #A78BFA);
+    color: #F3F4F6;
+    padding: 10px;
+    border-radius: 5px;
+}
