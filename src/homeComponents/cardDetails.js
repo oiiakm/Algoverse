@@ -30,13 +30,13 @@ export function getDetails(){
            route:"/sort",
            img:sort
        },
-    //    {
-    //        id:4,
-    //        title:"Recursive Sorting",
-    //        description:"Compare different recursive sorting algorithms",
-    //        route:"/recursivesort",
-    //        img:sort
-    //    },
+       {
+           id:4,
+           title:"Recursive Sorting",
+           description:"Compare different recursive sorting algorithms",
+           route:"/recursivesort",
+           img:sort
+       },
        {
            id:5,
            title:"N Queen",
@@ -44,20 +44,20 @@ export function getDetails(){
            route:"/nqueen",
            img:queen
        },
-    //    {
-    //        id:6,
-    //        title:"Turing Machine",
-    //        description:"A Turing machine is a mathematical model of computation that defines an abstract machine that manipulates symbols on a strip of tape according to a table of rules",
-    //        route:"/turing",
-    //        img:turing
-    //    },
-    //    {
-    //        id:7,
-    //        title:"Prime Numbers",
-    //        description:"Visualize how Seive is better than brute force",
-    //        route:"/prime",
-    //        img:primes
-    //    },
+       {
+           id:6,
+           title:"Turing Machine",
+           description:"A Turing machine is a mathematical model of computation that defines an abstract machine that manipulates symbols on a strip of tape according to a table of rules",
+           route:"/turing",
+           img:turing
+       },
+       {
+           id:7,
+           title:"Prime Numbers",
+           description:"Visualize how Seive is better than brute force",
+           route:"/prime",
+           img:primes
+       },
     //    {
     //        id:8,
     //        title:"Convex Hull",

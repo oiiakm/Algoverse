@@ -16,6 +16,7 @@ class Pathfinder extends Component {
             mouseIsPressed:false,
             algorithms:[
                 "Dijsktra",
+                "BFS","DFS"
                 // "A star","BFS","DFS"
             ],
             algo:0,
