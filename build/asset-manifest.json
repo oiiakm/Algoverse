@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/oiiakm/Algoverse/static/css/main.501e1a2a.chunk.css",
+    "main.js": "/oiiakm/Algoverse/static/js/main.b6fe7e9f.chunk.js",
+    "main.js.map": "/oiiakm/Algoverse/static/js/main.b6fe7e9f.chunk.js.map",
+    "runtime-main.js": "/oiiakm/Algoverse/static/js/runtime-main.4cbfefc3.js",
+    "runtime-main.js.map": "/oiiakm/Algoverse/static/js/runtime-main.4cbfefc3.js.map",
+    "static/css/2.772c1458.chunk.css": "/oiiakm/Algoverse/static/css/2.772c1458.chunk.css",
+    "static/js/2.dad97c5b.chunk.js": "/oiiakm/Algoverse/static/js/2.dad97c5b.chunk.js",
+    "static/js/2.dad97c5b.chunk.js.map": "/oiiakm/Algoverse/static/js/2.dad97c5b.chunk.js.map",
+    "static/js/3.3efe2be4.chunk.js": "/oiiakm/Algoverse/static/js/3.3efe2be4.chunk.js",
+    "static/js/3.3efe2be4.chunk.js.map": "/oiiakm/Algoverse/static/js/3.3efe2be4.chunk.js.map",
+    "index.html": "/oiiakm/Algoverse/index.html",
+    "static/css/2.772c1458.chunk.css.map": "/oiiakm/Algoverse/static/css/2.772c1458.chunk.css.map",
+    "static/css/main.501e1a2a.chunk.css.map": "/oiiakm/Algoverse/static/css/main.501e1a2a.chunk.css.map",
+    "static/js/2.dad97c5b.chunk.js.LICENSE.txt": "/oiiakm/Algoverse/static/js/2.dad97c5b.chunk.js.LICENSE.txt",
+    "static/media/15puzzle.5f6e8f37.PNG": "/oiiakm/Algoverse/static/media/15puzzle.5f6e8f37.PNG",
+    "static/media/style.css": "/oiiakm/Algoverse/static/media/background.84e20011.jpg",
+    "static/media/binaryTree.6d8ce938.png": "/oiiakm/Algoverse/static/media/binaryTree.6d8ce938.png",
+    "static/media/graph.6e6849d5.png": "/oiiakm/Algoverse/static/media/graph.6e6849d5.png",
+    "static/media/primes.72a2f33f.jpg": "/oiiakm/Algoverse/static/media/primes.72a2f33f.jpg",
+    "static/media/queen.a967028b.png": "/oiiakm/Algoverse/static/media/queen.a967028b.png",
+    "static/media/queen.b2332ba3.PNG": "/oiiakm/Algoverse/static/media/queen.b2332ba3.PNG",
+    "static/media/index.css": "/oiiakm/Algoverse/static/media/roboto-vietnamese-400-normal.52cebac0.woff2",
+    "static/media/sort.117e08fc.png": "/oiiakm/Algoverse/static/media/sort.117e08fc.png",
+    "static/media/turing.ab68ef09.jpg": "/oiiakm/Algoverse/static/media/turing.ab68ef09.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cbfefc3.js",
+    "static/css/2.772c1458.chunk.css",
+    "static/js/2.dad97c5b.chunk.js",
+    "static/css/main.501e1a2a.chunk.css",
+    "static/js/main.b6fe7e9f.chunk.js"
+  ]
+}
